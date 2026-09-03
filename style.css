@@ -996,6 +996,111 @@ img { max-width: 100%; }
 .btn-workshop-alt::before { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity var(--transition); background: rgba(255,255,255,0.1); }
 .btn-workshop-alt:hover::before { opacity: 1; }
 
+/* ── Green variant (SIEM Deployment) ── */
+.workshop-card-green::before { background: linear-gradient(90deg, var(--green), var(--cyan)); }
+.workshop-badge-green {
+  background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(6,182,212,0.08));
+  border-color: rgba(16,185,129,0.25);
+}
+.workshop-price-green {
+  background: linear-gradient(135deg, var(--green), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.workshop-icon-green {
+  background: linear-gradient(135deg, rgba(16,185,129,0.15), rgba(6,182,212,0.08));
+  border-color: rgba(16,185,129,0.2);
+}
+.workshop-icon-green svg { color: var(--green); }
+.workshop-card-green .workshop-tagline { color: #34d399; }
+.wtag-green {
+  background: rgba(16,185,129,0.08);
+  border-color: rgba(16,185,129,0.18);
+  color: #6ee7b7;
+}
+.wtag-green:hover { background: rgba(16,185,129,0.15); border-color: rgba(16,185,129,0.35); }
+.btn-workshop-green {
+  background: linear-gradient(135deg, var(--green), #059669);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(16,185,129,0.3);
+  align-self: flex-start;
+  margin-top: auto;
+}
+.btn-workshop-green:hover { transform: translateY(-2px); box-shadow: 0 0 35px rgba(16,185,129,0.5); }
+.btn-workshop-green::before { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity var(--transition); background: rgba(255,255,255,0.1); }
+.btn-workshop-green:hover::before { opacity: 1; }
+
+/* ── Orange variant (Detection Rules) ── */
+.workshop-card-orange::before { background: linear-gradient(90deg, var(--orange), #fbbf24); }
+.workshop-badge-orange {
+  background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(251,191,36,0.08));
+  border-color: rgba(245,158,11,0.25);
+}
+.workshop-price-orange {
+  background: linear-gradient(135deg, var(--orange), #fbbf24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.workshop-icon-orange {
+  background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(251,191,36,0.08));
+  border-color: rgba(245,158,11,0.2);
+}
+.workshop-icon-orange svg { color: var(--orange); }
+.workshop-card-orange .workshop-tagline { color: #fcd34d; }
+.wtag-orange {
+  background: rgba(245,158,11,0.08);
+  border-color: rgba(245,158,11,0.18);
+  color: #fde68a;
+}
+.wtag-orange:hover { background: rgba(245,158,11,0.15); border-color: rgba(245,158,11,0.35); }
+.btn-workshop-orange {
+  background: linear-gradient(135deg, var(--orange), #d97706);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(245,158,11,0.3);
+  align-self: flex-start;
+  margin-top: auto;
+}
+.btn-workshop-orange:hover { transform: translateY(-2px); box-shadow: 0 0 35px rgba(245,158,11,0.5); }
+.btn-workshop-orange::before { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity var(--transition); background: rgba(255,255,255,0.1); }
+.btn-workshop-orange:hover::before { opacity: 1; }
+
+/* ── Purple2 variant (SOAR) ── */
+.workshop-card-purple2::before { background: linear-gradient(90deg, #7c3aed, #a78bfa); }
+.workshop-badge-purple2 {
+  background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(167,139,250,0.08));
+  border-color: rgba(124,58,237,0.25);
+}
+.workshop-price-purple2 {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.workshop-icon-purple2 {
+  background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(167,139,250,0.08));
+  border-color: rgba(124,58,237,0.2);
+}
+.workshop-icon-purple2 svg { color: #a78bfa; }
+.workshop-card-purple2 .workshop-tagline { color: #c4b5fd; }
+.wtag-purple2 {
+  background: rgba(124,58,237,0.08);
+  border-color: rgba(124,58,237,0.18);
+  color: #ddd6fe;
+}
+.wtag-purple2:hover { background: rgba(124,58,237,0.15); border-color: rgba(124,58,237,0.35); }
+.btn-workshop-purple2 {
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(124,58,237,0.3);
+  align-self: flex-start;
+  margin-top: auto;
+}
+.btn-workshop-purple2:hover { transform: translateY(-2px); box-shadow: 0 0 35px rgba(124,58,237,0.5); }
+.btn-workshop-purple2::before { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity var(--transition); background: rgba(255,255,255,0.1); }
+.btn-workshop-purple2:hover::before { opacity: 1; }
+
 /* ─── ANIMATIONS (scroll-reveal) ────────────────────────────────── */
 .reveal {
   opacity: 0;
