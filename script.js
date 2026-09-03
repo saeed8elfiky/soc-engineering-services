@@ -1,4 +1,4 @@
-﻿// ─── NAV SCROLL ──────────────────────────────────────────────────
+// ─── NAV SCROLL ──────────────────────────────────────────────────
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 40);
@@ -51,7 +51,7 @@ commands.forEach(cmd => {
 
 // ─── SCROLL REVEAL ────────────────────────────────────────────────
 const revealEls = document.querySelectorAll(
-  '.service-card, .stat-card, .phase-item, .outcome-card, .why-card, .contact-option, .stack-row:not(.stack-header), .summary-text, .summary-stats'
+  '.service-card, .stat-card, .phase-item, .outcome-card, .why-card, .contact-option, .stack-row:not(.stack-header), .summary-text, .summary-stats, .workshop-card'
 );
 
 revealEls.forEach(el => el.classList.add('reveal'));
